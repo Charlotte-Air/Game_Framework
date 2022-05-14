@@ -1,0 +1,42 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "枫叶森林",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "MainCity",
+    "MiniMap": "buluzheng",
+    "Music": "BGM-MainCity"
+  },
+  "2": {
+    "ID": 2,
+    "Name": "樱之岛",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map01",
+    "MiniMap": "luorisenl",
+    "Music": "bgm-luoriyuhui"
+  },
+  "3": {
+    "ID": 3,
+    "Name": "堕落世界树",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map02",
+    "MiniMap": "luorisenl",
+    "Music": "bgm-luoriyuhui"
+  },
+  "4": {
+    "ID": 4,
+    "Name": "梦之都",
+    "Type": "Normal",
+    "SubType": "Normal",
+    "PKMode": false,
+    "Resource": "Map03",
+    "MiniMap": "luoriyuhui",
+    "Music": "bgm-luorisenl"
+  }
+}

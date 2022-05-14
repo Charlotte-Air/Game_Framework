@@ -1,0 +1,3092 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Common.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Charlotte.Extend.Fakes.ShimMessageExtend">
+            <summary>Charlotte.Extend.MessageExtend 的填充码类型</summary>
+        </member>
+        <member name="M:Charlotte.Extend.Fakes.ShimMessageExtend.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Charlotte.Extend.Fakes.ShimMessageExtend.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Charlotte.Extend.Fakes.ShimMessageExtend.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.EqualNEntityNEntity">
+            <summary>设置 MessageExtend.Equal(NEntity self, NEntity rhs) 的 填充码</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.EqualNVector3NVector3">
+            <summary>设置 MessageExtend.Equal(NVector3 self, NVector3 rhs) 的 填充码</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.FromNVector3Vector3IntNVector3">
+            <summary>设置 MessageExtend.FromNVector3(Vector3Int self, NVector3 nVector) 的 填充码</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.FromVector3IntNVector3Vector3Int">
+            <summary>设置 MessageExtend.FromVector3Int(NVector3 self, Vector3Int nVector) 的 填充码</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.StringNEntity">
+            <summary>设置 MessageExtend.String(NEntity self) 的 填充码</summary>
+        </member>
+        <member name="P:Charlotte.Extend.Fakes.ShimMessageExtend.StringNVector3">
+            <summary>设置 MessageExtend.String(NVector3 self) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimCharacterDefine">
+            <summary>Common.Data.CharacterDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimCharacterDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimCharacterDefine.#ctor(Common.Data.CharacterDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimCharacterDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.ClassGet">
+            <summary>设置 CharacterDefine.get_Class() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.ClassSetCharacterClass">
+            <summary>设置 CharacterDefine.set_Class(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.DescriptionGet">
+            <summary>设置 CharacterDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.DescriptionSetString">
+            <summary>设置 CharacterDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.HeightGet">
+            <summary>设置 CharacterDefine.get_Height() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.HeightSetSingle">
+            <summary>设置 CharacterDefine.set_Height(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.IconGet">
+            <summary>设置 CharacterDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.IconSetString">
+            <summary>设置 CharacterDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.NameGet">
+            <summary>设置 CharacterDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.NameSetString">
+            <summary>设置 CharacterDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.ResourceGet">
+            <summary>设置 CharacterDefine.get_Resource() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.ResourceSetString">
+            <summary>设置 CharacterDefine.set_Resource(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.SpeedGet">
+            <summary>设置 CharacterDefine.get_Speed() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.SpeedSetInt32">
+            <summary>设置 CharacterDefine.set_Speed(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.TIDGet">
+            <summary>设置 CharacterDefine.get_TID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.AllInstances.TIDSetInt32">
+            <summary>设置 CharacterDefine.set_TID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimCharacterDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimCharacterDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.ClassGet">
+            <summary>设置 CharacterDefine.get_Class() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.ClassSetCharacterClass">
+            <summary>设置 CharacterDefine.set_Class(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.Constructor">
+            <summary>设置 CharacterDefine.CharacterDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.DescriptionGet">
+            <summary>设置 CharacterDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.DescriptionSetString">
+            <summary>设置 CharacterDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.HeightGet">
+            <summary>设置 CharacterDefine.get_Height() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.HeightSetSingle">
+            <summary>设置 CharacterDefine.set_Height(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.IconGet">
+            <summary>设置 CharacterDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.IconSetString">
+            <summary>设置 CharacterDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.NameGet">
+            <summary>设置 CharacterDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.NameSetString">
+            <summary>设置 CharacterDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.ResourceGet">
+            <summary>设置 CharacterDefine.get_Resource() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.ResourceSetString">
+            <summary>设置 CharacterDefine.set_Resource(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.SpeedGet">
+            <summary>设置 CharacterDefine.get_Speed() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.SpeedSetInt32">
+            <summary>设置 CharacterDefine.set_Speed(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.TIDGet">
+            <summary>设置 CharacterDefine.get_TID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimCharacterDefine.TIDSetInt32">
+            <summary>设置 CharacterDefine.set_TID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimEquipDefine">
+            <summary>Common.Data.EquipDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimEquipDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimEquipDefine.#ctor(Common.Data.EquipDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.ADGet">
+            <summary>设置 EquipDefine.get_AD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.ADSetSingle">
+            <summary>设置 EquipDefine.set_AD(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.APGet">
+            <summary>设置 EquipDefine.get_AP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.APSetSingle">
+            <summary>设置 EquipDefine.set_AP(Single value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimEquipDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.ADGet">
+            <summary>设置 EquipDefine.get_AD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.ADSetSingle">
+            <summary>设置 EquipDefine.set_AD(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.APGet">
+            <summary>设置 EquipDefine.get_AP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.APSetSingle">
+            <summary>设置 EquipDefine.set_AP(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.CRIGet">
+            <summary>设置 EquipDefine.get_CRI() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.CRISetSingle">
+            <summary>设置 EquipDefine.set_CRI(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.CategoryGet">
+            <summary>设置 EquipDefine.get_Category() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.CategorySetString">
+            <summary>设置 EquipDefine.set_Category(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.DEFGet">
+            <summary>设置 EquipDefine.get_DEF() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.DEFSetSingle">
+            <summary>设置 EquipDefine.set_DEF(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.DEXGet">
+            <summary>设置 EquipDefine.get_DEX() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.DEXSetSingle">
+            <summary>设置 EquipDefine.set_DEX(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.HPGet">
+            <summary>设置 EquipDefine.get_HP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.HPSetSingle">
+            <summary>设置 EquipDefine.set_HP(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.IDGet">
+            <summary>设置 EquipDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.IDSetInt32">
+            <summary>设置 EquipDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.INTGet">
+            <summary>设置 EquipDefine.get_INT() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.INTSetSingle">
+            <summary>设置 EquipDefine.set_INT(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.MDEFGet">
+            <summary>设置 EquipDefine.get_MDEF() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.MDEFSetSingle">
+            <summary>设置 EquipDefine.set_MDEF(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.MPGet">
+            <summary>设置 EquipDefine.get_MP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.MPSetSingle">
+            <summary>设置 EquipDefine.set_MP(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.SPDGet">
+            <summary>设置 EquipDefine.get_SPD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.SPDSetSingle">
+            <summary>设置 EquipDefine.set_SPD(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.STRGet">
+            <summary>设置 EquipDefine.get_STR() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.STRSetSingle">
+            <summary>设置 EquipDefine.set_STR(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.SlotGet">
+            <summary>设置 EquipDefine.get_Slot() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.AllInstances.SlotSetEquipSlot">
+            <summary>设置 EquipDefine.set_Slot(EquipSlot value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimEquipDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimEquipDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.CRIGet">
+            <summary>设置 EquipDefine.get_CRI() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.CRISetSingle">
+            <summary>设置 EquipDefine.set_CRI(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.CategoryGet">
+            <summary>设置 EquipDefine.get_Category() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.CategorySetString">
+            <summary>设置 EquipDefine.set_Category(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.Constructor">
+            <summary>设置 EquipDefine.EquipDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.DEFGet">
+            <summary>设置 EquipDefine.get_DEF() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.DEFSetSingle">
+            <summary>设置 EquipDefine.set_DEF(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.DEXGet">
+            <summary>设置 EquipDefine.get_DEX() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.DEXSetSingle">
+            <summary>设置 EquipDefine.set_DEX(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.HPGet">
+            <summary>设置 EquipDefine.get_HP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.HPSetSingle">
+            <summary>设置 EquipDefine.set_HP(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.IDGet">
+            <summary>设置 EquipDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.IDSetInt32">
+            <summary>设置 EquipDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.INTGet">
+            <summary>设置 EquipDefine.get_INT() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.INTSetSingle">
+            <summary>设置 EquipDefine.set_INT(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.MDEFGet">
+            <summary>设置 EquipDefine.get_MDEF() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.MDEFSetSingle">
+            <summary>设置 EquipDefine.set_MDEF(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.MPGet">
+            <summary>设置 EquipDefine.get_MP() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.MPSetSingle">
+            <summary>设置 EquipDefine.set_MP(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.SPDGet">
+            <summary>设置 EquipDefine.get_SPD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.SPDSetSingle">
+            <summary>设置 EquipDefine.set_SPD(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.STRGet">
+            <summary>设置 EquipDefine.get_STR() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.STRSetSingle">
+            <summary>设置 EquipDefine.set_STR(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.SlotGet">
+            <summary>设置 EquipDefine.get_Slot() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimEquipDefine.SlotSetEquipSlot">
+            <summary>设置 EquipDefine.set_Slot(EquipSlot value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimItemDefine">
+            <summary>Common.Data.ItemDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimItemDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimItemDefine.#ctor(Common.Data.ItemDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimItemDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.CanUseGet">
+            <summary>设置 ItemDefine.get_CanUse() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.CanUseSetBoolean">
+            <summary>设置 ItemDefine.set_CanUse(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.CategoryGet">
+            <summary>设置 ItemDefine.get_Category() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.CategorySetString">
+            <summary>设置 ItemDefine.set_Category(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.DescriptionGet">
+            <summary>设置 ItemDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.DescriptionSetString">
+            <summary>设置 ItemDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.FunctionGet">
+            <summary>设置 ItemDefine.get_Function() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.FunctionSetItemFunction">
+            <summary>设置 ItemDefine.set_Function(ItemFunction value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.IDGet">
+            <summary>设置 ItemDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.IDSetInt32">
+            <summary>设置 ItemDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.IconGet">
+            <summary>设置 ItemDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.IconSetString">
+            <summary>设置 ItemDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.LevelGet">
+            <summary>设置 ItemDefine.get_Level() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.LevelSetInt32">
+            <summary>设置 ItemDefine.set_Level(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.LimitClassGet">
+            <summary>设置 ItemDefine.get_LimitClass() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.LimitClassSetCharacterClass">
+            <summary>设置 ItemDefine.set_LimitClass(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.NameGet">
+            <summary>设置 ItemDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.NameSetString">
+            <summary>设置 ItemDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.ParamGet">
+            <summary>设置 ItemDefine.get_Param() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.ParamSetInt32">
+            <summary>设置 ItemDefine.set_Param(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.ParamsGet">
+            <summary>设置 ItemDefine.get_Params() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.ParamsSetListOfInt32">
+            <summary>设置 ItemDefine.set_Params(List`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.PriceGet">
+            <summary>设置 ItemDefine.get_Price() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.PriceSetInt32">
+            <summary>设置 ItemDefine.set_Price(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.SellPriceGet">
+            <summary>设置 ItemDefine.get_SellPrice() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.SellPriceSetInt32">
+            <summary>设置 ItemDefine.set_SellPrice(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.StackLimitGet">
+            <summary>设置 ItemDefine.get_StackLimit() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.StackLimitSetInt32">
+            <summary>设置 ItemDefine.set_StackLimit(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.TypeGet">
+            <summary>设置 ItemDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.TypeSetItemType">
+            <summary>设置 ItemDefine.set_Type(ItemType value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.UseCDGet">
+            <summary>设置 ItemDefine.get_UseCD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.AllInstances.UseCDSetSingle">
+            <summary>设置 ItemDefine.set_UseCD(Single value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimItemDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimItemDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.CanUseGet">
+            <summary>设置 ItemDefine.get_CanUse() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.CanUseSetBoolean">
+            <summary>设置 ItemDefine.set_CanUse(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.CategoryGet">
+            <summary>设置 ItemDefine.get_Category() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.CategorySetString">
+            <summary>设置 ItemDefine.set_Category(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.Constructor">
+            <summary>设置 ItemDefine.ItemDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.DescriptionGet">
+            <summary>设置 ItemDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.DescriptionSetString">
+            <summary>设置 ItemDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.FunctionGet">
+            <summary>设置 ItemDefine.get_Function() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.FunctionSetItemFunction">
+            <summary>设置 ItemDefine.set_Function(ItemFunction value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.IDGet">
+            <summary>设置 ItemDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.IDSetInt32">
+            <summary>设置 ItemDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.IconGet">
+            <summary>设置 ItemDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.IconSetString">
+            <summary>设置 ItemDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.LevelGet">
+            <summary>设置 ItemDefine.get_Level() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.LevelSetInt32">
+            <summary>设置 ItemDefine.set_Level(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.LimitClassGet">
+            <summary>设置 ItemDefine.get_LimitClass() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.LimitClassSetCharacterClass">
+            <summary>设置 ItemDefine.set_LimitClass(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.NameGet">
+            <summary>设置 ItemDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.NameSetString">
+            <summary>设置 ItemDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.ParamGet">
+            <summary>设置 ItemDefine.get_Param() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.ParamSetInt32">
+            <summary>设置 ItemDefine.set_Param(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.ParamsGet">
+            <summary>设置 ItemDefine.get_Params() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.ParamsSetListOfInt32">
+            <summary>设置 ItemDefine.set_Params(List`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.PriceGet">
+            <summary>设置 ItemDefine.get_Price() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.PriceSetInt32">
+            <summary>设置 ItemDefine.set_Price(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.SellPriceGet">
+            <summary>设置 ItemDefine.get_SellPrice() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.SellPriceSetInt32">
+            <summary>设置 ItemDefine.set_SellPrice(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.StackLimitGet">
+            <summary>设置 ItemDefine.get_StackLimit() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.StackLimitSetInt32">
+            <summary>设置 ItemDefine.set_StackLimit(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.TypeGet">
+            <summary>设置 ItemDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.TypeSetItemType">
+            <summary>设置 ItemDefine.set_Type(ItemType value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.UseCDGet">
+            <summary>设置 ItemDefine.get_UseCD() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimItemDefine.UseCDSetSingle">
+            <summary>设置 ItemDefine.set_UseCD(Single value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimMapDefine">
+            <summary>Common.Data.MapDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimMapDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimMapDefine.#ctor(Common.Data.MapDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimMapDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.IDGet">
+            <summary>设置 MapDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.IDSetByte">
+            <summary>设置 MapDefine.set_ID(Byte value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.MiniMapGet">
+            <summary>设置 MapDefine.get_MiniMap() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.MiniMapSetString">
+            <summary>设置 MapDefine.set_MiniMap(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.MusicGet">
+            <summary>设置 MapDefine.get_Music() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.MusicSetString">
+            <summary>设置 MapDefine.set_Music(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.NameGet">
+            <summary>设置 MapDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.NameSetString">
+            <summary>设置 MapDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.ResourceGet">
+            <summary>设置 MapDefine.get_Resource() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.AllInstances.ResourceSetString">
+            <summary>设置 MapDefine.set_Resource(String value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimMapDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimMapDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.Constructor">
+            <summary>设置 MapDefine.MapDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.IDGet">
+            <summary>设置 MapDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.IDSetByte">
+            <summary>设置 MapDefine.set_ID(Byte value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.MiniMapGet">
+            <summary>设置 MapDefine.get_MiniMap() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.MiniMapSetString">
+            <summary>设置 MapDefine.set_MiniMap(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.MusicGet">
+            <summary>设置 MapDefine.get_Music() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.MusicSetString">
+            <summary>设置 MapDefine.set_Music(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.NameGet">
+            <summary>设置 MapDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.NameSetString">
+            <summary>设置 MapDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.ResourceGet">
+            <summary>设置 MapDefine.get_Resource() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimMapDefine.ResourceSetString">
+            <summary>设置 MapDefine.set_Resource(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimNpcDefine">
+            <summary>Common.Data.NpcDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimNpcDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimNpcDefine.#ctor(Common.Data.NpcDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimNpcDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.DescriptGet">
+            <summary>设置 NpcDefine.get_Descript() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.DescriptSetString">
+            <summary>设置 NpcDefine.set_Descript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.FunctionGet">
+            <summary>设置 NpcDefine.get_Function() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.FunctionSetNpcFunction">
+            <summary>设置 NpcDefine.set_Function(NpcFunction value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.IDGet">
+            <summary>设置 NpcDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.IDSetInt32">
+            <summary>设置 NpcDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.NameGet">
+            <summary>设置 NpcDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.NameSetString">
+            <summary>设置 NpcDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.ParamGet">
+            <summary>设置 NpcDefine.get_Param() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.ParamSetInt32">
+            <summary>设置 NpcDefine.set_Param(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.PositionGet">
+            <summary>设置 NpcDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.PositionSetNVector3">
+            <summary>设置 NpcDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.TypeGet">
+            <summary>设置 NpcDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.AllInstances.TypeSetNpcType">
+            <summary>设置 NpcDefine.set_Type(NpcType value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimNpcDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimNpcDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.Constructor">
+            <summary>设置 NpcDefine.NpcDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.DescriptGet">
+            <summary>设置 NpcDefine.get_Descript() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.DescriptSetString">
+            <summary>设置 NpcDefine.set_Descript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.FunctionGet">
+            <summary>设置 NpcDefine.get_Function() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.FunctionSetNpcFunction">
+            <summary>设置 NpcDefine.set_Function(NpcFunction value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.IDGet">
+            <summary>设置 NpcDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.IDSetInt32">
+            <summary>设置 NpcDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.NameGet">
+            <summary>设置 NpcDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.NameSetString">
+            <summary>设置 NpcDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.ParamGet">
+            <summary>设置 NpcDefine.get_Param() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.ParamSetInt32">
+            <summary>设置 NpcDefine.set_Param(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.PositionGet">
+            <summary>设置 NpcDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.PositionSetNVector3">
+            <summary>设置 NpcDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.TypeGet">
+            <summary>设置 NpcDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimNpcDefine.TypeSetNpcType">
+            <summary>设置 NpcDefine.set_Type(NpcType value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimQuestDefine">
+            <summary>Common.Data.QuestDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimQuestDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimQuestDefine.#ctor(Common.Data.QuestDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AcceptNPCGet">
+            <summary>设置 QuestDefine.get_AcceptNPC() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AcceptNPCSetInt32">
+            <summary>设置 QuestDefine.set_AcceptNPC(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimQuestDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.AcceptNPCGet">
+            <summary>设置 QuestDefine.get_AcceptNPC() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.AcceptNPCSetInt32">
+            <summary>设置 QuestDefine.set_AcceptNPC(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogAcceptGet">
+            <summary>设置 QuestDefine.get_DialogAccept() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogAcceptSetString">
+            <summary>设置 QuestDefine.set_DialogAccept(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogDenyGet">
+            <summary>设置 QuestDefine.get_DialogDeny() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogDenySetString">
+            <summary>设置 QuestDefine.set_DialogDeny(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogFinishGet">
+            <summary>设置 QuestDefine.get_DialogFinish() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogFinishSetString">
+            <summary>设置 QuestDefine.set_DialogFinish(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogGet">
+            <summary>设置 QuestDefine.get_Dialog() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogIncompleteGet">
+            <summary>设置 QuestDefine.get_DialogIncomplete() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogIncompleteSetString">
+            <summary>设置 QuestDefine.set_DialogIncomplete(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.DialogSetString">
+            <summary>设置 QuestDefine.set_Dialog(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.IDGet">
+            <summary>设置 QuestDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.IDSetInt32">
+            <summary>设置 QuestDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.LimitClassGet">
+            <summary>设置 QuestDefine.get_LimitClass() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.LimitClassSetCharacterClass">
+            <summary>设置 QuestDefine.set_LimitClass(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.LimitLevelGet">
+            <summary>设置 QuestDefine.get_LimitLevel() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.LimitLevelSetInt32">
+            <summary>设置 QuestDefine.set_LimitLevel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.NameGet">
+            <summary>设置 QuestDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.NameSetString">
+            <summary>设置 QuestDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.OverviewGet">
+            <summary>设置 QuestDefine.get_Overview() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.OverviewSetString">
+            <summary>设置 QuestDefine.set_Overview(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.PreQuestGet">
+            <summary>设置 QuestDefine.get_PreQuest() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.PreQuestSetInt32">
+            <summary>设置 QuestDefine.set_PreQuest(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardExpGet">
+            <summary>设置 QuestDefine.get_RewardExp() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardExpSetInt32">
+            <summary>设置 QuestDefine.set_RewardExp(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardGoldGet">
+            <summary>设置 QuestDefine.get_RewardGold() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardGoldSetInt32">
+            <summary>设置 QuestDefine.set_RewardGold(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem1CountGet">
+            <summary>设置 QuestDefine.get_RewardItem1Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem1CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem1Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem1Get">
+            <summary>设置 QuestDefine.get_RewardItem1() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem1SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem1(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem2CountGet">
+            <summary>设置 QuestDefine.get_RewardItem2Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem2CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem2Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem2Get">
+            <summary>设置 QuestDefine.get_RewardItem2() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem2SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem2(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem3CountGet">
+            <summary>设置 QuestDefine.get_RewardItem3Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem3CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem3Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem3Get">
+            <summary>设置 QuestDefine.get_RewardItem3() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.RewardItem3SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem3(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.SubmitNPCGet">
+            <summary>设置 QuestDefine.get_SubmitNPC() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.SubmitNPCSetInt32">
+            <summary>设置 QuestDefine.set_SubmitNPC(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1Get">
+            <summary>设置 QuestDefine.get_Target1() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1IDGet">
+            <summary>设置 QuestDefine.get_Target1ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1IDSetInt32">
+            <summary>设置 QuestDefine.set_Target1ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1NumGet">
+            <summary>设置 QuestDefine.get_Target1Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1NumSetInt32">
+            <summary>设置 QuestDefine.set_Target1Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target1SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target1(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2Get">
+            <summary>设置 QuestDefine.get_Target2() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2IDGet">
+            <summary>设置 QuestDefine.get_Target2ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2IDSetInt32">
+            <summary>设置 QuestDefine.set_Target2ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2NumGet">
+            <summary>设置 QuestDefine.get_Target2Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2NumSetInt32">
+            <summary>设置 QuestDefine.set_Target2Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target2SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target2(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3Get">
+            <summary>设置 QuestDefine.get_Target3() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3IDGet">
+            <summary>设置 QuestDefine.get_Target3ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3IDSetInt32">
+            <summary>设置 QuestDefine.set_Target3ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3NumGet">
+            <summary>设置 QuestDefine.get_Target3Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3NumSetInt32">
+            <summary>设置 QuestDefine.set_Target3Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.Target3SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target3(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.TypeGet">
+            <summary>设置 QuestDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.AllInstances.TypeSetQuestType">
+            <summary>设置 QuestDefine.set_Type(QuestType value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimQuestDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimQuestDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Constructor">
+            <summary>设置 QuestDefine.QuestDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogAcceptGet">
+            <summary>设置 QuestDefine.get_DialogAccept() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogAcceptSetString">
+            <summary>设置 QuestDefine.set_DialogAccept(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogDenyGet">
+            <summary>设置 QuestDefine.get_DialogDeny() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogDenySetString">
+            <summary>设置 QuestDefine.set_DialogDeny(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogFinishGet">
+            <summary>设置 QuestDefine.get_DialogFinish() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogFinishSetString">
+            <summary>设置 QuestDefine.set_DialogFinish(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogGet">
+            <summary>设置 QuestDefine.get_Dialog() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogIncompleteGet">
+            <summary>设置 QuestDefine.get_DialogIncomplete() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogIncompleteSetString">
+            <summary>设置 QuestDefine.set_DialogIncomplete(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.DialogSetString">
+            <summary>设置 QuestDefine.set_Dialog(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.IDGet">
+            <summary>设置 QuestDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.IDSetInt32">
+            <summary>设置 QuestDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.LimitClassGet">
+            <summary>设置 QuestDefine.get_LimitClass() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.LimitClassSetCharacterClass">
+            <summary>设置 QuestDefine.set_LimitClass(CharacterClass value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.LimitLevelGet">
+            <summary>设置 QuestDefine.get_LimitLevel() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.LimitLevelSetInt32">
+            <summary>设置 QuestDefine.set_LimitLevel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.NameGet">
+            <summary>设置 QuestDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.NameSetString">
+            <summary>设置 QuestDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.OverviewGet">
+            <summary>设置 QuestDefine.get_Overview() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.OverviewSetString">
+            <summary>设置 QuestDefine.set_Overview(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.PreQuestGet">
+            <summary>设置 QuestDefine.get_PreQuest() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.PreQuestSetInt32">
+            <summary>设置 QuestDefine.set_PreQuest(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardExpGet">
+            <summary>设置 QuestDefine.get_RewardExp() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardExpSetInt32">
+            <summary>设置 QuestDefine.set_RewardExp(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardGoldGet">
+            <summary>设置 QuestDefine.get_RewardGold() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardGoldSetInt32">
+            <summary>设置 QuestDefine.set_RewardGold(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem1CountGet">
+            <summary>设置 QuestDefine.get_RewardItem1Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem1CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem1Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem1Get">
+            <summary>设置 QuestDefine.get_RewardItem1() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem1SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem1(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem2CountGet">
+            <summary>设置 QuestDefine.get_RewardItem2Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem2CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem2Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem2Get">
+            <summary>设置 QuestDefine.get_RewardItem2() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem2SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem2(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem3CountGet">
+            <summary>设置 QuestDefine.get_RewardItem3Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem3CountSetInt32">
+            <summary>设置 QuestDefine.set_RewardItem3Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem3Get">
+            <summary>设置 QuestDefine.get_RewardItem3() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.RewardItem3SetInt32">
+            <summary>设置 QuestDefine.set_RewardItem3(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.SubmitNPCGet">
+            <summary>设置 QuestDefine.get_SubmitNPC() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.SubmitNPCSetInt32">
+            <summary>设置 QuestDefine.set_SubmitNPC(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1Get">
+            <summary>设置 QuestDefine.get_Target1() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1IDGet">
+            <summary>设置 QuestDefine.get_Target1ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1IDSetInt32">
+            <summary>设置 QuestDefine.set_Target1ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1NumGet">
+            <summary>设置 QuestDefine.get_Target1Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1NumSetInt32">
+            <summary>设置 QuestDefine.set_Target1Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target1SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target1(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2Get">
+            <summary>设置 QuestDefine.get_Target2() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2IDGet">
+            <summary>设置 QuestDefine.get_Target2ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2IDSetInt32">
+            <summary>设置 QuestDefine.set_Target2ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2NumGet">
+            <summary>设置 QuestDefine.get_Target2Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2NumSetInt32">
+            <summary>设置 QuestDefine.set_Target2Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target2SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target2(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3Get">
+            <summary>设置 QuestDefine.get_Target3() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3IDGet">
+            <summary>设置 QuestDefine.get_Target3ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3IDSetInt32">
+            <summary>设置 QuestDefine.set_Target3ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3NumGet">
+            <summary>设置 QuestDefine.get_Target3Num() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3NumSetInt32">
+            <summary>设置 QuestDefine.set_Target3Num(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.Target3SetQuestTarget">
+            <summary>设置 QuestDefine.set_Target3(QuestTarget value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.TypeGet">
+            <summary>设置 QuestDefine.get_Type() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimQuestDefine.TypeSetQuestType">
+            <summary>设置 QuestDefine.set_Type(QuestType value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimShopDefine">
+            <summary>Common.Data.ShopDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopDefine.#ctor(Common.Data.ShopDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimShopDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.DescriptionGet">
+            <summary>设置 ShopDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.DescriptionSetString">
+            <summary>设置 ShopDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.IDGet">
+            <summary>设置 ShopDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.IDSetInt32">
+            <summary>设置 ShopDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.IconGet">
+            <summary>设置 ShopDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.IconSetString">
+            <summary>设置 ShopDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.NameGet">
+            <summary>设置 ShopDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.NameSetString">
+            <summary>设置 ShopDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.StatusGet">
+            <summary>设置 ShopDefine.get_Status() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.AllInstances.StatusSetInt32">
+            <summary>设置 ShopDefine.set_Status(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.Constructor">
+            <summary>设置 ShopDefine.ShopDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.DescriptionGet">
+            <summary>设置 ShopDefine.get_Description() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.DescriptionSetString">
+            <summary>设置 ShopDefine.set_Description(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.IDGet">
+            <summary>设置 ShopDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.IDSetInt32">
+            <summary>设置 ShopDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.IconGet">
+            <summary>设置 ShopDefine.get_Icon() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.IconSetString">
+            <summary>设置 ShopDefine.set_Icon(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.NameGet">
+            <summary>设置 ShopDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.NameSetString">
+            <summary>设置 ShopDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.StatusGet">
+            <summary>设置 ShopDefine.get_Status() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopDefine.StatusSetInt32">
+            <summary>设置 ShopDefine.set_Status(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimShopItemDefine">
+            <summary>Common.Data.ShopItemDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopItemDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopItemDefine.#ctor(Common.Data.ShopItemDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimShopItemDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.CountGet">
+            <summary>设置 ShopItemDefine.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.CountSetInt32">
+            <summary>设置 ShopItemDefine.set_Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.ItemIDGet">
+            <summary>设置 ShopItemDefine.get_ItemID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.ItemIDSetInt32">
+            <summary>设置 ShopItemDefine.set_ItemID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.PriceGet">
+            <summary>设置 ShopItemDefine.get_Price() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.PriceSetInt32">
+            <summary>设置 ShopItemDefine.set_Price(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.StatusGet">
+            <summary>设置 ShopItemDefine.get_Status() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.AllInstances.StatusSetInt32">
+            <summary>设置 ShopItemDefine.set_Status(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopItemDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimShopItemDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.Constructor">
+            <summary>设置 ShopItemDefine.ShopItemDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.CountGet">
+            <summary>设置 ShopItemDefine.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.CountSetInt32">
+            <summary>设置 ShopItemDefine.set_Count(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.ItemIDGet">
+            <summary>设置 ShopItemDefine.get_ItemID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.ItemIDSetInt32">
+            <summary>设置 ShopItemDefine.set_ItemID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.PriceGet">
+            <summary>设置 ShopItemDefine.get_Price() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.PriceSetInt32">
+            <summary>设置 ShopItemDefine.set_Price(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.StatusGet">
+            <summary>设置 ShopItemDefine.get_Status() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimShopItemDefine.StatusSetInt32">
+            <summary>设置 ShopItemDefine.set_Status(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimSpawnPointDefine">
+            <summary>Common.Data.SpawnPointDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnPointDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnPointDefine.#ctor(Common.Data.SpawnPointDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.DirectionGet">
+            <summary>设置 SpawnPointDefine.get_Direction() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.DirectionSetNVector3">
+            <summary>设置 SpawnPointDefine.set_Direction(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.IDGet">
+            <summary>设置 SpawnPointDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.IDSetInt32">
+            <summary>设置 SpawnPointDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.MapIDGet">
+            <summary>设置 SpawnPointDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.MapIDSetInt32">
+            <summary>设置 SpawnPointDefine.set_MapID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.PositionGet">
+            <summary>设置 SpawnPointDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.AllInstances.PositionSetNVector3">
+            <summary>设置 SpawnPointDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnPointDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnPointDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.Constructor">
+            <summary>设置 SpawnPointDefine.SpawnPointDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.DirectionGet">
+            <summary>设置 SpawnPointDefine.get_Direction() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.DirectionSetNVector3">
+            <summary>设置 SpawnPointDefine.set_Direction(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.IDGet">
+            <summary>设置 SpawnPointDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.IDSetInt32">
+            <summary>设置 SpawnPointDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.MapIDGet">
+            <summary>设置 SpawnPointDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.MapIDSetInt32">
+            <summary>设置 SpawnPointDefine.set_MapID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.PositionGet">
+            <summary>设置 SpawnPointDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnPointDefine.PositionSetNVector3">
+            <summary>设置 SpawnPointDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimSpawnRuleDefine">
+            <summary>Common.Data.SpawnRuleDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnRuleDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnRuleDefine.#ctor(Common.Data.SpawnRuleDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.IDGet">
+            <summary>设置 SpawnRuleDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.IDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.MapIDGet">
+            <summary>设置 SpawnRuleDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.MapIDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_MapID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnLevelGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnLevel() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnLevelSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnLevel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnMonIDGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnMonID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnMonIDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnMonID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPeriodGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPeriod() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPeriodSetSingle">
+            <summary>设置 SpawnRuleDefine.set_SpawnPeriod(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPointGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPoint() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPointSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnPoint(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPointsGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPoints() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnPointsSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnPoints(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnTypeGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnType() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.AllInstances.SpawnTypeSetSPAWN_TYPE">
+            <summary>设置 SpawnRuleDefine.set_SpawnType(SPAWN_TYPE value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnRuleDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimSpawnRuleDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.Constructor">
+            <summary>设置 SpawnRuleDefine.SpawnRuleDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.IDGet">
+            <summary>设置 SpawnRuleDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.IDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.MapIDGet">
+            <summary>设置 SpawnRuleDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.MapIDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_MapID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnLevelGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnLevel() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnLevelSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnLevel(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnMonIDGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnMonID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnMonIDSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnMonID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPeriodGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPeriod() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPeriodSetSingle">
+            <summary>设置 SpawnRuleDefine.set_SpawnPeriod(Single value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPointGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPoint() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPointSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnPoint(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPointsGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnPoints() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnPointsSetInt32">
+            <summary>设置 SpawnRuleDefine.set_SpawnPoints(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnTypeGet">
+            <summary>设置 SpawnRuleDefine.get_SpawnType() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimSpawnRuleDefine.SpawnTypeSetSPAWN_TYPE">
+            <summary>设置 SpawnRuleDefine.set_SpawnType(SPAWN_TYPE value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimTeleporterDefine">
+            <summary>Common.Data.TeleporterDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimTeleporterDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimTeleporterDefine.#ctor(Common.Data.TeleporterDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.ShimTeleporterDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.DescriptGet">
+            <summary>设置 TeleporterDefine.get_Descript() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.DescriptSetString">
+            <summary>设置 TeleporterDefine.set_Descript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.DirectionGet">
+            <summary>设置 TeleporterDefine.get_Direction() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.DirectionSetNVector3">
+            <summary>设置 TeleporterDefine.set_Direction(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.IDGet">
+            <summary>设置 TeleporterDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.IDSetInt32">
+            <summary>设置 TeleporterDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.LinkToGet">
+            <summary>设置 TeleporterDefine.get_LinkTo() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.LinkToSetInt32">
+            <summary>设置 TeleporterDefine.set_LinkTo(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.MapIDGet">
+            <summary>设置 TeleporterDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.MapIDSetByte">
+            <summary>设置 TeleporterDefine.set_MapID(Byte value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.NameGet">
+            <summary>设置 TeleporterDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.NameSetString">
+            <summary>设置 TeleporterDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.PositionGet">
+            <summary>设置 TeleporterDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.AllInstances.PositionSetNVector3">
+            <summary>设置 TeleporterDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimTeleporterDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.ShimTeleporterDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.Constructor">
+            <summary>设置 TeleporterDefine.TeleporterDefine() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.DescriptGet">
+            <summary>设置 TeleporterDefine.get_Descript() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.DescriptSetString">
+            <summary>设置 TeleporterDefine.set_Descript(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.DirectionGet">
+            <summary>设置 TeleporterDefine.get_Direction() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.DirectionSetNVector3">
+            <summary>设置 TeleporterDefine.set_Direction(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.IDGet">
+            <summary>设置 TeleporterDefine.get_ID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.IDSetInt32">
+            <summary>设置 TeleporterDefine.set_ID(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.LinkToGet">
+            <summary>设置 TeleporterDefine.get_LinkTo() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.LinkToSetInt32">
+            <summary>设置 TeleporterDefine.set_LinkTo(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.MapIDGet">
+            <summary>设置 TeleporterDefine.get_MapID() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.MapIDSetByte">
+            <summary>设置 TeleporterDefine.set_MapID(Byte value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.NameGet">
+            <summary>设置 TeleporterDefine.get_Name() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.NameSetString">
+            <summary>设置 TeleporterDefine.set_Name(String value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.PositionGet">
+            <summary>设置 TeleporterDefine.get_Position() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.ShimTeleporterDefine.PositionSetNVector3">
+            <summary>设置 TeleporterDefine.set_Position(NVector3 value) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubCharacterDefine">
+            <summary>Common.Data.CharacterDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubCharacterDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubCharacterDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubCharacterDefine.InitializeStub">
+            <summary>初始化 type StubCharacterDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubCharacterDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubCharacterDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubEquipDefine">
+            <summary>Common.Data.EquipDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubEquipDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubEquipDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubEquipDefine.InitializeStub">
+            <summary>初始化 type StubEquipDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubEquipDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubEquipDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubItemDefine">
+            <summary>Common.Data.ItemDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubItemDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubItemDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubItemDefine.InitializeStub">
+            <summary>初始化 type StubItemDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubItemDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubItemDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubMapDefine">
+            <summary>Common.Data.MapDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubMapDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubMapDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubMapDefine.InitializeStub">
+            <summary>初始化 type StubMapDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubMapDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubMapDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubNpcDefine">
+            <summary>Common.Data.NpcDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubNpcDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubNpcDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubNpcDefine.InitializeStub">
+            <summary>初始化 type StubNpcDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubNpcDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubNpcDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubQuestDefine">
+            <summary>Common.Data.QuestDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubQuestDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubQuestDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubQuestDefine.InitializeStub">
+            <summary>初始化 type StubQuestDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubQuestDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubQuestDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubShopDefine">
+            <summary>Common.Data.ShopDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubShopDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubShopDefine.InitializeStub">
+            <summary>初始化 type StubShopDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubShopItemDefine">
+            <summary>Common.Data.ShopItemDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubShopItemDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopItemDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubShopItemDefine.InitializeStub">
+            <summary>初始化 type StubShopItemDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopItemDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubShopItemDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubSpawnPointDefine">
+            <summary>Common.Data.SpawnPointDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubSpawnPointDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnPointDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubSpawnPointDefine.InitializeStub">
+            <summary>初始化 type StubSpawnPointDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnPointDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnPointDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubSpawnRuleDefine">
+            <summary>Common.Data.SpawnRuleDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubSpawnRuleDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnRuleDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubSpawnRuleDefine.InitializeStub">
+            <summary>初始化 type StubSpawnRuleDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnRuleDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubSpawnRuleDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Data.Fakes.StubTeleporterDefine">
+            <summary>Common.Data.TeleporterDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubTeleporterDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubTeleporterDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Data.Fakes.StubTeleporterDefine.InitializeStub">
+            <summary>初始化 type StubTeleporterDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubTeleporterDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Data.Fakes.StubTeleporterDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimBufferUtility">
+            <summary>Common.BufferUtility 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimBufferUtility.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimBufferUtility.#ctor(Common.BufferUtility)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimBufferUtility.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimBufferUtility.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimBufferUtility.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimBufferUtility.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimBufferUtility.Constructor">
+            <summary>设置 BufferUtility.BufferUtility() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimBufferUtility.GetInt32ByteArrayInt32">
+            <summary>设置 BufferUtility.GetInt32(Byte[] buffer, Int32 offset) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimGameDefine">
+            <summary>Common.GameDefine 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimGameDefine.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimGameDefine.#ctor(Common.GameDefine)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimGameDefine.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimGameDefine.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimGameDefine.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimGameDefine.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimGameDefine.Constructor">
+            <summary>设置 GameDefine.GameDefine() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimLog">
+            <summary>Common.Log 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimLog.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimLog.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimLog.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.ErrorFormatStringObject">
+            <summary>设置 Log.ErrorFormat(String format, Object arg0) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.ErrorFormatStringObjectArray">
+            <summary>设置 Log.ErrorFormat(String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.ErrorFormatStringObjectObject">
+            <summary>设置 Log.ErrorFormat(String format, Object arg0, Object arg1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.ErrorFormatStringObjectObjectObject">
+            <summary>设置 Log.ErrorFormat(String format, Object arg0, Object arg1, Object arg2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.ErrorObject">
+            <summary>设置 Log.Error(Object message) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalFormaAtStringObjectArray">
+            <summary>设置 Log.FatalFormaAt(String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalFormatStringObject">
+            <summary>设置 Log.FatalFormat(String format, Object arg0) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalFormatStringObjectArray">
+            <summary>设置 Log.FatalFormat(String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalFormatStringObjectObject">
+            <summary>设置 Log.FatalFormat(String format, Object arg0, Object arg1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalFormatStringObjectObjectObject">
+            <summary>设置 Log.FatalFormat(String format, Object arg0, Object arg1, Object arg2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.FatalObject">
+            <summary>设置 Log.Fatal(Object message) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InfoFormatStringObject">
+            <summary>设置 Log.InfoFormat(String format, Object arg0) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InfoFormatStringObjectArray">
+            <summary>设置 Log.InfoFormat(String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InfoFormatStringObjectObject">
+            <summary>设置 Log.InfoFormat(String format, Object arg0, Object arg1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InfoFormatStringObjectObjectObject">
+            <summary>设置 Log.InfoFormat(String format, Object arg0, Object arg1, Object arg2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InfoObject">
+            <summary>设置 Log.Info(Object message) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.InitString">
+            <summary>设置 Log.Init(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.WarningFormatStringObject">
+            <summary>设置 Log.WarningFormat(String format, Object arg0) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.WarningFormatStringObjectArray">
+            <summary>设置 Log.WarningFormat(String format, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.WarningFormatStringObjectObject">
+            <summary>设置 Log.WarningFormat(String format, Object arg0, Object arg1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.WarningFormatStringObjectObjectObject">
+            <summary>设置 Log.WarningFormat(String format, Object arg0, Object arg1, Object arg2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimLog.WarningObject">
+            <summary>设置 Log.Warning(Object message) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimSingleton`1">
+            <summary>Common.Singleton`1 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimSingleton`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimSingleton`1.#ctor(Common.Singleton{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.ShimSingleton`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimSingleton`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Fakes.ShimSingleton`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimSingleton`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimSingleton`1.Constructor">
+            <summary>设置 Singleton`1.Singleton`1() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimSingleton`1.Destroy">
+            <summary>设置 Singleton`1.Destroy() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Fakes.ShimSingleton`1.InstanceGet">
+            <summary>设置 Singleton`1.get_Instance() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Fakes.StubBufferUtility">
+            <summary>Common.BufferUtility 的存根类型</summary>
+        </member>
+        <member name="M:Common.Fakes.StubBufferUtility.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubBufferUtility.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Fakes.StubBufferUtility.InitializeStub">
+            <summary>初始化 type StubBufferUtility 的新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubBufferUtility.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Fakes.StubBufferUtility.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Fakes.StubGameDefine">
+            <summary>Common.GameDefine 的存根类型</summary>
+        </member>
+        <member name="M:Common.Fakes.StubGameDefine.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubGameDefine.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Fakes.StubGameDefine.InitializeStub">
+            <summary>初始化 type StubGameDefine 的新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubGameDefine.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Fakes.StubGameDefine.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Fakes.StubSingleton`1">
+            <summary>Common.Singleton`1 的存根类型</summary>
+        </member>
+        <member name="M:Common.Fakes.StubSingleton`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubSingleton`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Fakes.StubSingleton`1.InitializeStub">
+            <summary>初始化 type StubSingleton 的新实例</summary>
+        </member>
+        <member name="P:Common.Fakes.StubSingleton`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Fakes.StubSingleton`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimJSONObject">
+            <summary>Common.Utils.JSONObject 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObject.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObject.#ctor(Common.Utils.JSONObject)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AbsorbJSONObject">
+            <summary>设置 JSONObject.Absorb(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddBoolean">
+            <summary>设置 JSONObject.Add(Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringBoolean">
+            <summary>设置 JSONObject.AddField(String name, Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringInt32">
+            <summary>设置 JSONObject.AddField(String name, Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringInt64">
+            <summary>设置 JSONObject.AddField(String name, Int64 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringJSONObject">
+            <summary>设置 JSONObject.AddField(String name, JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.AddField(String name, AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringSingle">
+            <summary>设置 JSONObject.AddField(String name, Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddFieldStringString">
+            <summary>设置 JSONObject.AddField(String name, String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddInt32">
+            <summary>设置 JSONObject.Add(Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddJSONObject">
+            <summary>设置 JSONObject.Add(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.Add(AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddSingle">
+            <summary>设置 JSONObject.Add(Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AddString">
+            <summary>设置 JSONObject.Add(String str) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimJSONObject.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AbsorbJSONObject">
+            <summary>设置 JSONObject.Absorb(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddBoolean">
+            <summary>设置 JSONObject.Add(Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringBoolean">
+            <summary>设置 JSONObject.AddField(String name, Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringInt32">
+            <summary>设置 JSONObject.AddField(String name, Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringInt64">
+            <summary>设置 JSONObject.AddField(String name, Int64 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringJSONObject">
+            <summary>设置 JSONObject.AddField(String name, JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.AddField(String name, AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringSingle">
+            <summary>设置 JSONObject.AddField(String name, Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddFieldStringString">
+            <summary>设置 JSONObject.AddField(String name, String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddInt32">
+            <summary>设置 JSONObject.Add(Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddJSONObject">
+            <summary>设置 JSONObject.Add(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.Add(AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddSingle">
+            <summary>设置 JSONObject.Add(Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.AddString">
+            <summary>设置 JSONObject.Add(String str) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.Bake">
+            <summary>设置 JSONObject.Bake() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.BakeAsync">
+            <summary>设置 JSONObject.BakeAsync() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.Clear">
+            <summary>设置 JSONObject.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.Copy">
+            <summary>设置 JSONObject.Copy() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.CountGet">
+            <summary>设置 JSONObject.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetEnumerator">
+            <summary>设置 JSONObject.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldBooleanOutStringBoolean">
+            <summary>设置 JSONObject.GetField(Boolean&amp; field, String name, Boolean fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldBooleanRefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(Boolean&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldInt32OutStringInt32">
+            <summary>设置 JSONObject.GetField(Int32&amp; field, String name, Int32 fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldInt32RefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(Int32&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldInt64OutStringInt64">
+            <summary>设置 JSONObject.GetField(Int64&amp; field, String name, Int64 fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldInt64RefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(Int64&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldSingleOutStringSingle">
+            <summary>设置 JSONObject.GetField(Single&amp; field, String name, Single fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldSingleRefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(Single&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldString">
+            <summary>设置 JSONObject.GetField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldStringJSONObjectGetFieldResponseJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(String name, GetFieldResponse response, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldStringOutStringString">
+            <summary>设置 JSONObject.GetField(String&amp; field, String name, String fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldStringRefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(String&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldUInt32OutStringUInt32">
+            <summary>设置 JSONObject.GetField(UInt32&amp; field, String name, UInt32 fallback) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.GetFieldUInt32RefStringJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(UInt32&amp; field, String name, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.HasFieldString">
+            <summary>设置 JSONObject.HasField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.HasFieldsStringArray">
+            <summary>设置 JSONObject.HasFields(String[] names) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsArrayGet">
+            <summary>设置 JSONObject.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsBoolGet">
+            <summary>设置 JSONObject.get_IsBool() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsNullGet">
+            <summary>设置 JSONObject.get_IsNull() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsNumberGet">
+            <summary>设置 JSONObject.get_IsNumber() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsObjectGet">
+            <summary>设置 JSONObject.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.IsStringGet">
+            <summary>设置 JSONObject.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ItemGetInt32">
+            <summary>设置 JSONObject.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ItemGetString">
+            <summary>设置 JSONObject.get_Item(String index) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ItemSetInt32JSONObject">
+            <summary>设置 JSONObject.set_Item(Int32 index, JSONObject value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ItemSetStringJSONObject">
+            <summary>设置 JSONObject.set_Item(String index, JSONObject value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.MergeJSONObject">
+            <summary>设置 JSONObject.Merge(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ParseStringInt32BooleanBoolean">
+            <summary>设置 JSONObject.Parse(String str, Int32 maxDepth, Boolean storeExcessLevels, Boolean strict) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.PrintAsyncBoolean">
+            <summary>设置 JSONObject.PrintAsync(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.PrintBoolean">
+            <summary>设置 JSONObject.Print(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.RemoveFieldString">
+            <summary>设置 JSONObject.RemoveField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SetFieldStringBoolean">
+            <summary>设置 JSONObject.SetField(String name, Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SetFieldStringInt32">
+            <summary>设置 JSONObject.SetField(String name, Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SetFieldStringJSONObject">
+            <summary>设置 JSONObject.SetField(String name, JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SetFieldStringSingle">
+            <summary>设置 JSONObject.SetField(String name, Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SetFieldStringString">
+            <summary>设置 JSONObject.SetField(String name, String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.StringifyAsyncInt32StringBuilderBoolean">
+            <summary>设置 JSONObject.StringifyAsync(Int32 depth, StringBuilder builder, Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.StringifyInt32StringBuilderBoolean">
+            <summary>设置 JSONObject.Stringify(Int32 depth, StringBuilder builder, Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>设置 JSONObject.System.Collections.IEnumerable.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ToDictionary">
+            <summary>设置 JSONObject.ToDictionary() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ToString01">
+            <summary>设置 JSONObject.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.ToStringBoolean">
+            <summary>设置 JSONObject.ToString(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.fGet">
+            <summary>设置 JSONObject.get_f() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.AllInstances.isContainerGet">
+            <summary>设置 JSONObject.get_isContainer() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Bake">
+            <summary>设置 JSONObject.Bake() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.BakeAsync">
+            <summary>设置 JSONObject.BakeAsync() 的 填充码</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObject.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObject.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObject.Bind(System.Collections.IEnumerable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Clear">
+            <summary>设置 JSONObject.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Constructor">
+            <summary>设置 JSONObject.JSONObject() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorBoolean">
+            <summary>设置 JSONObject.JSONObject(Boolean b) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorDictionaryOfStringJSONObject">
+            <summary>设置 JSONObject.JSONObject(Dictionary`2&lt;String,JSONObject&gt; dic) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorDictionaryOfStringString">
+            <summary>设置 JSONObject.JSONObject(Dictionary`2&lt;String,String&gt; dic) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorInt32">
+            <summary>设置 JSONObject.JSONObject(Int32 i) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorInt64">
+            <summary>设置 JSONObject.JSONObject(Int64 l) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.JSONObject(AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorJSONObjectArray">
+            <summary>设置 JSONObject.JSONObject(JSONObject[] objs) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorJSONObjectType">
+            <summary>设置 JSONObject.JSONObject(Type t) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorSingle">
+            <summary>设置 JSONObject.JSONObject(Single f) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ConstructorStringInt32BooleanBoolean">
+            <summary>设置 JSONObject.JSONObject(String str, Int32 maxDepth, Boolean storeExcessLevels, Boolean strict) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Copy">
+            <summary>设置 JSONObject.Copy() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CountGet">
+            <summary>设置 JSONObject.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.Create">
+            <summary>设置 JSONObject.Create() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateBakedObjectString">
+            <summary>设置 JSONObject.CreateBakedObject(String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateBoolean">
+            <summary>设置 JSONObject.Create(Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateDictionaryOfStringString">
+            <summary>设置 JSONObject.Create(Dictionary`2&lt;String,String&gt; dic) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateInt32">
+            <summary>设置 JSONObject.Create(Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateInt64">
+            <summary>设置 JSONObject.Create(Int64 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateJSONObjectAddJSONContents">
+            <summary>设置 JSONObject.Create(AddJSONContents content) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateJSONObjectType">
+            <summary>设置 JSONObject.Create(Type t) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateSingle">
+            <summary>设置 JSONObject.Create(Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateStringInt32BooleanBoolean">
+            <summary>设置 JSONObject.Create(String val, Int32 maxDepth, Boolean storeExcessLevels, Boolean strict) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.CreateStringObjectString">
+            <summary>设置 JSONObject.CreateStringObject(String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.GetEnumerator">
+            <summary>设置 JSONObject.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.GetFieldString">
+            <summary>设置 JSONObject.GetField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.GetFieldStringJSONObjectGetFieldResponseJSONObjectFieldNotFound">
+            <summary>设置 JSONObject.GetField(String name, GetFieldResponse response, FieldNotFound fail) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.HasFieldString">
+            <summary>设置 JSONObject.HasField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.HasFieldsStringArray">
+            <summary>设置 JSONObject.HasFields(String[] names) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ImplicitOpJSONObjectBoolean">
+            <summary>设置 JSONObject.op_Implicit(JSONObject o) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsArrayGet">
+            <summary>设置 JSONObject.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsBoolGet">
+            <summary>设置 JSONObject.get_IsBool() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsNullGet">
+            <summary>设置 JSONObject.get_IsNull() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsNumberGet">
+            <summary>设置 JSONObject.get_IsNumber() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsObjectGet">
+            <summary>设置 JSONObject.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.IsStringGet">
+            <summary>设置 JSONObject.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ItemGetInt32">
+            <summary>设置 JSONObject.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ItemGetString">
+            <summary>设置 JSONObject.get_Item(String index) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ItemSetInt32JSONObject">
+            <summary>设置 JSONObject.set_Item(Int32 index, JSONObject value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ItemSetStringJSONObject">
+            <summary>设置 JSONObject.set_Item(String index, JSONObject value) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.MergeJSONObject">
+            <summary>设置 JSONObject.Merge(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.MergeRecurJSONObjectJSONObject">
+            <summary>设置 JSONObject.MergeRecur(JSONObject left, JSONObject right) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ParseStringInt32BooleanBoolean">
+            <summary>设置 JSONObject.Parse(String str, Int32 maxDepth, Boolean storeExcessLevels, Boolean strict) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.PrintAsyncBoolean">
+            <summary>设置 JSONObject.PrintAsync(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.PrintBoolean">
+            <summary>设置 JSONObject.Print(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.RemoveFieldString">
+            <summary>设置 JSONObject.RemoveField(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SetFieldStringBoolean">
+            <summary>设置 JSONObject.SetField(String name, Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SetFieldStringInt32">
+            <summary>设置 JSONObject.SetField(String name, Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SetFieldStringJSONObject">
+            <summary>设置 JSONObject.SetField(String name, JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SetFieldStringSingle">
+            <summary>设置 JSONObject.SetField(String name, Single val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SetFieldStringString">
+            <summary>设置 JSONObject.SetField(String name, String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.StaticConstructor">
+            <summary>设置 JSONObject.JSONObject() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.StringObjectString">
+            <summary>设置 JSONObject.StringObject(String val) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.StringifyAsyncInt32StringBuilderBoolean">
+            <summary>设置 JSONObject.StringifyAsync(Int32 depth, StringBuilder builder, Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.StringifyInt32StringBuilderBoolean">
+            <summary>设置 JSONObject.Stringify(Int32 depth, StringBuilder builder, Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>设置 JSONObject.System.Collections.IEnumerable.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ToDictionary">
+            <summary>设置 JSONObject.ToDictionary() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ToString">
+            <summary>设置 JSONObject.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.ToStringBoolean">
+            <summary>设置 JSONObject.ToString(Boolean pretty) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.arrGet">
+            <summary>设置 JSONObject.get_arr() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.fGet">
+            <summary>设置 JSONObject.get_f() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.isContainerGet">
+            <summary>设置 JSONObject.get_isContainer() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.nullJOGet">
+            <summary>设置 JSONObject.get_nullJO() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObject.objGet">
+            <summary>设置 JSONObject.get_obj() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimJSONObjectEnumer">
+            <summary>Common.Utils.JSONObjectEnumer 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObjectEnumer.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObjectEnumer.#ctor(Common.Utils.JSONObjectEnumer)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimJSONObjectEnumer.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.AllInstances.CurrentGet">
+            <summary>设置 JSONObjectEnumer.get_Current() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.AllInstances.CurrentSystemCollectionsIEnumeratorget">
+            <summary>设置 JSONObjectEnumer.System.Collections.IEnumerator.get_Current() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.AllInstances.MoveNext">
+            <summary>设置 JSONObjectEnumer.MoveNext() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.AllInstances.Reset">
+            <summary>设置 JSONObjectEnumer.Reset() 的 填充码</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObjectEnumer.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObjectEnumer.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimJSONObjectEnumer.Bind(System.Collections.IEnumerator)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.ConstructorJSONObject">
+            <summary>设置 JSONObjectEnumer.JSONObjectEnumer(JSONObject jsonObject) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.CurrentGet">
+            <summary>设置 JSONObjectEnumer.get_Current() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.CurrentSystemCollectionsIEnumeratorget">
+            <summary>设置 JSONObjectEnumer.System.Collections.IEnumerator.get_Current() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.MoveNext">
+            <summary>设置 JSONObjectEnumer.MoveNext() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimJSONObjectEnumer.Reset">
+            <summary>设置 JSONObjectEnumer.Reset() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimLang">
+            <summary>Common.Utils.Lang 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimLang.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimLang.#ctor(Common.Utils.Lang)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimLang.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimLang.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimLang.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.CheckStringString">
+            <summary>设置 Lang.CheckString(String str) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.Constructor">
+            <summary>设置 Lang.Lang() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.DeleteAngleBracketsString">
+            <summary>设置 Lang.DeleteAngleBrackets(String str) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetByStringStringObject">
+            <summary>设置 Lang.GetByString(String sOriginalStr, Object param1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetByStringStringObjectArray">
+            <summary>设置 Lang.GetByString(String sOriginalStr, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetByStringStringObjectObject">
+            <summary>设置 Lang.GetByString(String sOriginalStr, Object param1, Object param2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetParamCountInStringString">
+            <summary>设置 Lang.GetParamCountInString(String str) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetString">
+            <summary>设置 Lang.Get(String Str) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetStringObject">
+            <summary>设置 Lang.Get(String Str, Object param1) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetStringObjectArray">
+            <summary>设置 Lang.Get(String Str, Object[] args) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetStringObjectObject">
+            <summary>设置 Lang.Get(String Str, Object param1, Object param2) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.GetStringObjectObjectObject">
+            <summary>设置 Lang.Get(String Str, Object param1, Object param2, Object param3) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.SetTempJsonObjJSONObject">
+            <summary>设置 Lang.SetTempJsonObj(JSONObject obj) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimLang.StaticConstructor">
+            <summary>设置 Lang.Lang() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimMathUtil">
+            <summary>Common.Utils.MathUtil 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimMathUtil.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimMathUtil.#ctor(Common.Utils.MathUtil)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimMathUtil.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimMathUtil.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimMathUtil.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimMathUtil.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimMathUtil.Constructor">
+            <summary>设置 MathUtil.MathUtil() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimMathUtil.RoundToIntSingle">
+            <summary>设置 MathUtil.RoundToInt(Single f) 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimTimeUtil">
+            <summary>Common.Utils.TimeUtil 的填充码类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimTimeUtil.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimTimeUtil.#ctor(Common.Utils.TimeUtil)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.ShimTimeUtil.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimTimeUtil.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.ShimTimeUtil.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.Constructor">
+            <summary>设置 TimeUtil.TimeUtil() 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.GetTimeDownUInt32">
+            <summary>设置 TimeUtil.GetTimeDown(UInt32 second) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.GetTimeInt64">
+            <summary>设置 TimeUtil.GetTime(Int64 timeStamp) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.GetTimestampDateTime">
+            <summary>设置 TimeUtil.GetTimestamp(DateTime time) 的 填充码</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.ShimTimeUtil.timestampGet">
+            <summary>设置 TimeUtil.get_timestamp() 的 填充码</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.StubJSONObject">
+            <summary>Common.Utils.JSONObject 的存根类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(Common.Utils.JSONObject[])">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(Common.Utils.JSONObject.Type)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Int64)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Boolean)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Collections.Generic.Dictionary{System.String,Common.Utils.JSONObject})">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.Single)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(Common.Utils.JSONObject.AddJSONContents)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.#ctor(System.String,System.Int32,System.Boolean,System.Boolean)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObject.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.InitializeStub">
+            <summary>初始化 type StubJSONObject 的新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObject.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObject.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObject.ToString">
+            <summary>设置 JSONObject.ToString() 的 存根</summary>
+        </member>
+        <member name="F:Common.Utils.Fakes.StubJSONObject.ToString01">
+            <summary>设置 JSONObject.ToString() 的 stub</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.StubJSONObjectEnumer">
+            <summary>Common.Utils.JSONObjectEnumer 的存根类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObjectEnumer.#ctor(Common.Utils.JSONObject)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObjectEnumer.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubJSONObjectEnumer.InitializeStub">
+            <summary>初始化 type StubJSONObjectEnumer 的新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObjectEnumer.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubJSONObjectEnumer.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.StubLang">
+            <summary>Common.Utils.Lang 的存根类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubLang.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubLang.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubLang.InitializeStub">
+            <summary>初始化 type StubLang 的新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubLang.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubLang.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.StubMathUtil">
+            <summary>Common.Utils.MathUtil 的存根类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubMathUtil.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubMathUtil.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubMathUtil.InitializeStub">
+            <summary>初始化 type StubMathUtil 的新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubMathUtil.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubMathUtil.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Common.Utils.Fakes.StubTimeUtil">
+            <summary>Common.Utils.TimeUtil 的存根类型</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubTimeUtil.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubTimeUtil.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Common.Utils.Fakes.StubTimeUtil.InitializeStub">
+            <summary>初始化 type StubTimeUtil 的新实例</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubTimeUtil.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Common.Utils.Fakes.StubTimeUtil.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.CommonDelegates">
+            <summary>包含用于 Common 的存根和填充码的自定义委托</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDispatch`1">
+            <summary>Network.MessageDispatch`1 的填充码类型</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDispatch`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDispatch`1.#ctor(Network.MessageDispatch{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDispatch`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.AllInstances.DispatchT0NetMessageRequest">
+            <summary>设置 MessageDispatch`1.Dispatch(!0 sender, NetMessageRequest message) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.AllInstances.DispatchT0NetMessageResponse">
+            <summary>设置 MessageDispatch`1.Dispatch(!0 sender, NetMessageResponse message) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDispatch`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDispatch`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.Constructor">
+            <summary>设置 MessageDispatch`1.MessageDispatch`1() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.DispatchT0NetMessageRequest">
+            <summary>设置 MessageDispatch`1.Dispatch(!0 sender, NetMessageRequest message) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDispatch`1.DispatchT0NetMessageResponse">
+            <summary>设置 MessageDispatch`1.Dispatch(!0 sender, NetMessageResponse message) 的 填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDistributer">
+            <summary>Network.MessageDistributer 的填充码类型</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer.#ctor(Network.MessageDistributer)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDistributer.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer.Constructor">
+            <summary>设置 MessageDistributer.MessageDistributer() 的 填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDistributer`1">
+            <summary>Network.MessageDistributer`1 的填充码类型</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.#ctor(Network.MessageDistributer{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimMessageDistributer`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.Clear">
+            <summary>设置 MessageDistributer`1.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.Distribute">
+            <summary>设置 MessageDistributer`1.Distribute() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.MessageDistributeObject">
+            <summary>设置 MessageDistributer`1.MessageDistribute(Object stateInfo) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.AllInstances.RaiseEventOf1T0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Network.MessageDistributer{`0},`0,``0})">
+            <summary>设置 MessageDistributer`1.RaiseEvent(!0 sender, !!0 msg) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.ReceiveMessageT0NetMessage">
+            <summary>设置 MessageDistributer`1.ReceiveMessage(!0 sender, NetMessage message) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.SetThrowExceptionSetBoolean">
+            <summary>设置 MessageDistributer`1.set_SetThrowException(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.StartInt32">
+            <summary>设置 MessageDistributer`1.Start(Int32 ThreadNum) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.AllInstances.Stop">
+            <summary>设置 MessageDistributer`1.Stop() 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.AllInstances.SubscribeOf1MessageDistributerMessageHandlerOfT0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Network.MessageDistributer{`0},Network.MessageDistributer{`0}.MessageHandler{``0}})">
+            <summary>设置 MessageDistributer`1.Subscribe(MessageHandler`1&lt;!0,!!0&gt; messageHandler) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.AllInstances.UnsubscribeOf1MessageDistributerMessageHandlerOfT0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Network.MessageDistributer{`0},Network.MessageDistributer{`0}.MessageHandler{``0}})">
+            <summary>设置 MessageDistributer`1.Unsubscribe(MessageHandler`1&lt;!0,!!0&gt; messageHandler) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.Clear">
+            <summary>设置 MessageDistributer`1.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.Constructor">
+            <summary>设置 MessageDistributer`1.MessageDistributer`1() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.Distribute">
+            <summary>设置 MessageDistributer`1.Distribute() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.MessageDistributeObject">
+            <summary>设置 MessageDistributer`1.MessageDistribute(Object stateInfo) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.RaiseEventOf1T0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{`0,``0})">
+            <summary>设置 MessageDistributer`1.RaiseEvent(!0 sender, !!0 msg) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.ReceiveMessageT0NetMessage">
+            <summary>设置 MessageDistributer`1.ReceiveMessage(!0 sender, NetMessage message) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.SetThrowExceptionSetBoolean">
+            <summary>设置 MessageDistributer`1.set_SetThrowException(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.StartInt32">
+            <summary>设置 MessageDistributer`1.Start(Int32 ThreadNum) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimMessageDistributer`1.Stop">
+            <summary>设置 MessageDistributer`1.Stop() 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.SubscribeOf1MessageDistributerMessageHandlerOfT0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Network.MessageDistributer{`0}.MessageHandler{``0}})">
+            <summary>设置 MessageDistributer`1.Subscribe(MessageHandler`1&lt;!0,!!0&gt; messageHandler) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimMessageDistributer`1.UnsubscribeOf1MessageDistributerMessageHandlerOfT0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Network.MessageDistributer{`0}.MessageHandler{``0}})">
+            <summary>设置 MessageDistributer`1.Unsubscribe(MessageHandler`1&lt;!0,!!0&gt; messageHandler) 的 填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimPackageHandler">
+            <summary>Network.PackageHandler 的填充码类型</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler.#ctor(Network.PackageHandler)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimPackageHandler.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler.ConstructorObject">
+            <summary>设置 PackageHandler.PackageHandler(Object sender) 的 填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimPackageHandler`1">
+            <summary>Network.PackageHandler`1 的填充码类型</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler`1.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler`1.#ctor(Network.PackageHandler{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.ShimPackageHandler`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.AllInstances.ParsePackage">
+            <summary>设置 PackageHandler`1.ParsePackage() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.AllInstances.ReceiveDataByteArrayInt32Int32">
+            <summary>设置 PackageHandler`1.ReceiveData(Byte[] data, Int32 offset, Int32 count) 的 填充码</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Network.Fakes.ShimPackageHandler`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.ConstructorT0">
+            <summary>设置 PackageHandler`1.PackageHandler`1(!0 sender) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.PackMessageNetMessage">
+            <summary>设置 PackageHandler`1.PackMessage(NetMessage message) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.ParsePackage">
+            <summary>设置 PackageHandler`1.ParsePackage() 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.ReceiveDataByteArrayInt32Int32">
+            <summary>设置 PackageHandler`1.ReceiveData(Byte[] data, Int32 offset, Int32 count) 的 填充码</summary>
+        </member>
+        <member name="P:Network.Fakes.ShimPackageHandler`1.UnpackMessageByteArrayInt32Int32">
+            <summary>设置 PackageHandler`1.UnpackMessage(Byte[] packet, Int32 offset, Int32 length) 的 填充码</summary>
+        </member>
+        <member name="T:Network.Fakes.StubMessageDispatch`1">
+            <summary>Network.MessageDispatch`1 的存根类型</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDispatch`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDispatch`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDispatch`1.InitializeStub">
+            <summary>初始化 type StubMessageDispatch 的新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDispatch`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDispatch`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Network.Fakes.StubMessageDistributer">
+            <summary>Network.MessageDistributer 的存根类型</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDistributer.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDistributer.InitializeStub">
+            <summary>初始化 type StubMessageDistributer 的新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Network.Fakes.StubMessageDistributer`1">
+            <summary>Network.MessageDistributer`1 的存根类型</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDistributer`1.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Network.Fakes.StubMessageDistributer`1.InitializeStub">
+            <summary>初始化 type StubMessageDistributer 的新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Network.Fakes.StubMessageDistributer`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Network.Fakes.StubPackageHandler">
+            <summary>Network.PackageHandler 的存根类型</summary>
+        </member>
+        <member name="M:Network.Fakes.StubPackageHandler.#ctor(System.Object)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Network.Fakes.StubPackageHandler.InitializeStub">
+            <summary>初始化 type StubPackageHandler 的新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Network.Fakes.StubPackageHandler`1">
+            <summary>Network.PackageHandler`1 的存根类型</summary>
+        </member>
+        <member name="M:Network.Fakes.StubPackageHandler`1.#ctor(`0)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler`1.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:Network.Fakes.StubPackageHandler`1.InitializeStub">
+            <summary>初始化 type StubPackageHandler 的新实例</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler`1.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Network.Fakes.StubPackageHandler`1.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

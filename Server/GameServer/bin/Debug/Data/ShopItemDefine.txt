@@ -1,0 +1,386 @@
+{
+  "1": {
+    "1": {
+      "ItemID": 1,
+      "Count": 1,
+      "Price": 100,
+      "Status": 1,
+      "小型治疗药水": {}
+    },
+    "2": {
+      "ItemID": 1,
+      "Count": 10,
+      "Price": 850,
+      "Status": 1,
+      "小型治疗药水X10": {}
+    },
+    "3": {
+      "ItemID": 2,
+      "Count": 1,
+      "Price": 100,
+      "Status": 1,
+      "小型法力药水": {}
+    },
+    "4": {
+      "ItemID": 2,
+      "Count": 10,
+      "Price": 850,
+      "Status": 1,
+      "小型法力药水X10": {}
+    },
+    "5": {
+      "ItemID": 3,
+      "Count": 1,
+      "Price": 200,
+      "Status": 1,
+      "面包": {}
+    },
+    "6": {
+      "ItemID": 3,
+      "Count": 10,
+      "Price": 1400,
+      "Status": 1,
+      "面包X10": {}
+    },
+    "7": {
+      "ItemID": 4,
+      "Count": 1,
+      "Price": 200,
+      "Status": 1,
+      "海鲜汤": {}
+    },
+    "8": {
+      "ItemID": 4,
+      "Count": 10,
+      "Price": 1400,
+      "Status": 1,
+      "海鲜汤X10": {}
+    },
+    "9": {
+      "ItemID": 11,
+      "Count": 1,
+      "Price": 1000,
+      "Status": 1,
+      "止痛药": {}
+    },
+    "10": {
+      "ItemID": 12,
+      "Count": 1,
+      "Price": 1200,
+      "Status": 1,
+      "止痛粉": {}
+    },
+    "11": {
+      "ItemID": 13,
+      "Count": 1,
+      "Price": 1500,
+      "Status": 1,
+      "魔法水": {}
+    },
+    "12": {
+      "ItemID": 14,
+      "Count": 1,
+      "Price": 1300,
+      "Status": 1,
+      "月之水": {}
+    },
+    "13": {
+      "ItemID": 15,
+      "Count": 1,
+      "Price": 1100,
+      "Status": 1,
+      "强攻剂": {}
+    },
+    "14": {
+      "ItemID": 16,
+      "Count": 1,
+      "Price": 2000,
+      "Status": 1,
+      "小瓶圣水": {}
+    },
+    "15": {
+      "ItemID": 17,
+      "Count": 1,
+      "Price": 800,
+      "Status": 1,
+      "大瓶圣水": {}
+    }
+  },
+  "2": {
+    "16": {
+      "ItemID": 50,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "力量之书": {}
+    },
+    "17": {
+      "ItemID": 51,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "法力之书": {}
+    },
+    "18": {
+      "ItemID": 52,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "剑之书": {}
+    },
+    "19": {
+      "ItemID": 53,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "弓之书": {}
+    },
+    "20": {
+      "ItemID": 54,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "法杖之书": {}
+    },
+    "21": {
+      "ItemID": 55,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "工具之书": {}
+    },
+    "22": {
+      "ItemID": 56,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "属性之书": {}
+    },
+    "23": {
+      "ItemID": 57,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "魔法之书": {}
+    },
+    "24": {
+      "ItemID": 58,
+      "Count": 1,
+      "Price": 10000,
+      "Status": 1,
+      "兑换劵1": {}
+    },
+    "25": {
+      "ItemID": 59,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵2": {}
+    },
+    "26": {
+      "ItemID": 60,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵3": {}
+    },
+    "27": {
+      "ItemID": 61,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵4": {}
+    },
+    "28": {
+      "ItemID": 62,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵5": {}
+    },
+    "29": {
+      "ItemID": 63,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵6": {}
+    },
+    "30": {
+      "ItemID": 64,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵7": {}
+    },
+    "31": {
+      "ItemID": 65,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵8": {}
+    },
+    "32": {
+      "ItemID": 66,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵9": {}
+    },
+    "33": {
+      "ItemID": 67,
+      "Count": 1,
+      "Price": 20000,
+      "Status": 1,
+      "兑换劵10": {}
+    }
+  },
+  "3": {
+    "34": {
+      "ItemID": 1001,
+      "Count": 1,
+      "Price": 3200,
+      "Status": 1,
+      "黑星剑": {}
+    },
+    "35": {
+      "ItemID": 1002,
+      "Count": 1,
+      "Price": 2000,
+      "Status": 1,
+      "蓝星盾": {}
+    },
+    "36": {
+      "ItemID": 2001,
+      "Count": 1,
+      "Price": 1800,
+      "Status": 1,
+      "蓝星头盔": {}
+    },
+    "37": {
+      "ItemID": 2002,
+      "Count": 1,
+      "Price": 4000,
+      "Status": 1,
+      "蓝星胸甲": {}
+    },
+    "38": {
+      "ItemID": 3001,
+      "Count": 1,
+      "Price": 1500,
+      "Status": 1,
+      "蓝星肩膀": {}
+    },
+    "39": {
+      "ItemID": 3002,
+      "Count": 1,
+      "Price": 3000,
+      "Status": 1,
+      "蓝星铁裤": {}
+    },
+    "40": {
+      "ItemID": 1003,
+      "Count": 1,
+      "Price": 500,
+      "Status": 1,
+      "蓝星铁靴": {}
+    },
+    "41": {
+      "ItemID": 1004,
+      "Count": 1,
+      "Price": 3200,
+      "Status": 1,
+      "蔚蓝法杖": {}
+    },
+    "42": {
+      "ItemID": 1005,
+      "Count": 1,
+      "Price": 2000,
+      "Status": 1,
+      "蔚蓝灵冠": {}
+    },
+    "43": {
+      "ItemID": 1006,
+      "Count": 1,
+      "Price": 1800,
+      "Status": 1,
+      "蔚蓝灵帽": {}
+    },
+    "44": {
+      "ItemID": 1007,
+      "Count": 1,
+      "Price": 4000,
+      "Status": 1,
+      "蔚蓝灵袍": {}
+    },
+    "45": {
+      "ItemID": 2003,
+      "Count": 1,
+      "Price": 1500,
+      "Status": 1,
+      "蔚蓝手套": {}
+    },
+    "46": {
+      "ItemID": 2004,
+      "Count": 1,
+      "Price": 3000,
+      "Status": 1,
+      "蔚蓝灵裤": {}
+    },
+    "47": {
+      "ItemID": 2005,
+      "Count": 1,
+      "Price": 500,
+      "Status": 1,
+      "蔚蓝灵靴": {}
+    },
+    "48": {
+      "ItemID": 2006,
+      "Count": 1,
+      "Price": 3200,
+      "Status": 1,
+      "若梦之弓": {}
+    },
+    "49": {
+      "ItemID": 2007,
+      "Count": 1,
+      "Price": 2000,
+      "Status": 1,
+      "若梦项链": {}
+    },
+    "50": {
+      "ItemID": 3003,
+      "Count": 1,
+      "Price": 1800,
+      "Status": 1,
+      "若梦之帽": {}
+    },
+    "51": {
+      "ItemID": 3004,
+      "Count": 1,
+      "Price": 4000,
+      "Status": 1,
+      "若梦之衣": {}
+    },
+    "52": {
+      "ItemID": 3005,
+      "Count": 1,
+      "Price": 1500,
+      "Status": 1,
+      "若梦之肩": {}
+    },
+    "53": {
+      "ItemID": 3006,
+      "Count": 1,
+      "Price": 3000,
+      "Status": 1,
+      "若梦之裤": {}
+    },
+    "54": {
+      "ItemID": 3007,
+      "Count": 1,
+      "Price": 500,
+      "Status": 1,
+      "若梦之靴": {}
+    }
+  }
+}

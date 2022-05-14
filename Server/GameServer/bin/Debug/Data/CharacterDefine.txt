@@ -1,0 +1,93 @@
+{
+  "1": {
+    "TID": 1,
+    "Name": "战士",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Character/Warrior",
+    "Description": "传说中，在里恩岛的寒冰洞穴中，战神受到少女莉琳的呼唤而再次苏醒于世上，成为对抗黑暗势力的战士",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 1.9,
+    "Icon": "UI/BayIcon/1"
+  },
+  "2": {
+    "TID": 2,
+    "Name": "法师",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Character/Wizard",
+    "Description": "传说中，为保护世界，挺身而出的光魔法师，在普力特的帮助下封印了黑魔魔法师，但在封印过程中被黑魔魔法师强行灌注黑暗力量，是拥有最纯洁光之力量的星之子。",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 1.8,
+    "Icon": "UI/BayIcon/2"
+  },
+  "3": {
+    "TID": 3,
+    "Name": "弓箭手",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Character/Archer",
+    "Description": "他唯一存在的依据就是这世界的敌人——黑魔法师还记得他，抛弃自己存在的一切，弓箭手这个悲剧的英雄孤独的战斗着~",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 2.0,
+    "Icon": "UI/BayIcon/3"
+  },
+  "1001": {
+    "TID": 1001,
+    "Name": "月光精灵",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1001",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 3.3,
+    "Icon": "UI/BayIcon/1001"
+  },
+  "1002": {
+    "TID": 1002,
+    "Name": "日光精灵",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1002",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 2.9,
+    "Icon": "UI/BayIcon/1001"
+  },
+  "1003": {
+    "TID": 1003,
+    "Name": "蝴蝶妖",
+    "Type": "Normal",
+    "Class": "WARRIOR",
+    "Resource": "Monster/M1003",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 2.4,
+    "Icon": "UI/BayIcon/1003"
+  },
+  "1004": {
+    "TID": 1004,
+    "Name": "赤龙",
+    "Type": "Normal",
+    "Class": "ARCHER",
+    "Resource": "Monster/M1004",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 2.3,
+    "Icon": "UI/BayIcon/1003"
+  },
+  "1005": {
+    "TID": 1005,
+    "Name": "黑飞龙",
+    "Type": "Normal",
+    "Class": "WIZARD",
+    "Resource": "Monster/M1005",
+    "InitLevel": 1,
+    "Speed": 300,
+    "Height": 2.4,
+    "Icon": "UI/BayIcon/1005"
+  }
+}

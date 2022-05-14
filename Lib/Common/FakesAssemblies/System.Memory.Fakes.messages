@@ -1,0 +1,53 @@
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 FxResources.System.Memory.SR 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.ThrowHelper 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.DecimalDecCalc 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Number 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.MemoryDebugView`1 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.MemoryExtensions 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SpanDebugView`1 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SpanHelpers 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Pinnable`1 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.NotImplemented 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SR 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Numerics.Hashing.HashHelpers 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Runtime.InteropServices.SequenceMarshal 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Runtime.InteropServices.MemoryMarshal 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ArrayMemoryPool`1 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.BuffersExtensions 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.IBufferWriter`1 生成存根: method System.Span`1<!0> System.Buffers.IBufferWriter`1.GetSpan(System.Int32 sizeHint) unstubbable: 方法是抽象的，因此无法用作存根，方法 IBufferWriter`1.GetSpan 中的参数 System.Span`1<!0> 不受支持，因为它是引用结构类型。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ReadOnlySequence 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ReadOnlySequenceDebugView`1 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.MemoryManager`1 生成存根: method System.Span`1<!0> System.Buffers.MemoryManager`1.GetSpan() unstubbable: 方法是抽象的，因此无法用作存根，方法 MemoryManager`1.GetSpan 中的参数 System.Span`1<!0> 不受支持，因为它是引用结构类型。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Base64 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Constants 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.FormattingHelpers 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Formatter 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.ParserHelpers 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Parser 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Binary.BinaryPrimitives 生成存根: 类型已密封。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 FxResources.System.Memory.SR 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.ThrowHelper 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.DecimalDecCalc 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Number 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.NumberBuffer 生成填充码: 类型已过时。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.MemoryDebugView`1 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.ReadOnlySpan`1 生成填充码: 类型已过时。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Span`1 生成填充码: 类型已过时。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SpanDebugView`1 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SpanHelpers 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.NUInt 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Pinnable`1 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.NotImplemented 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.MutableDecimal 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.SR 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Numerics.Hashing.HashHelpers 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Runtime.InteropServices.SequenceMarshal 生成填充码: 类型不受支持，因为存在内部限制。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Runtime.InteropServices.MemoryMarshal 生成填充码: 类型不受支持，因为存在内部限制。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ArrayMemoryPool`1 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ReadOnlySequence 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.ReadOnlySequenceDebugView`1 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Constants 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.FormattingHelpers 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Formatter+DecomposedGuid 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.ParserHelpers 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
+X:\Game_Framework\Lib\Common\Fakes\System.Memory.fakes : warning : 无法为 System.Buffers.Text.Utf8Parser+TimeSpanSplitter 生成填充码: 类型对 exported or assembly(System.Memory.Fakes) 不可见。
