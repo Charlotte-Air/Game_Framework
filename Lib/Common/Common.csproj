@@ -136,6 +136,7 @@
     <PostBuildEvent>copy $(TargetDir)*.dll $(SolutionDir)GameServer\bin\Debug\ /Y
 copy $(TargetDir)*.xml $(SolutionDir)GameServer\bin\Debug\ /Y
 copy $(TargetDir)*.pdb $(SolutionDir)GameServer\bin\Debug\ /Y
-copy $(TargetDir)*.config $(SolutionDir)GameServer\bin\Debug\ /Y</PostBuildEvent>
+copy $(TargetDir)*.config $(SolutionDir)GameServer\bin\Debug\ /Y
+IF EXIST $(ProjectDir)..\..\Client\Assets\References\UnityEngine.dll DEL $(ProjectDir)..\..\Client\Assets\References\UnityEngine.dll</PostBuildEvent>
   </PropertyGroup>
 </Project>

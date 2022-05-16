@@ -273,6 +273,8 @@
     <PostBuildEvent>copy $(TargetDir)*.dll $(ProjectDir)..\..\Client\Assets\References\ /Y
 copy $(TargetDir)*.xml $(ProjectDir)..\..\Client\Assets\References\ /Y
 copy $(TargetDir)*.pdb $(ProjectDir)..\..\Client\Assets\References\ /Y
-copy $(TargetDir)*.config $(ProjectDir)..\..\Client\Assets\References\ /Y</PostBuildEvent>
+copy $(TargetDir)*.config $(ProjectDir)..\..\Client\Assets\References\ /Y
+copy $(TargetDir)*.config $(ProjectDir)..\..\Client\Assets\References\ /Y
+IF EXIST $(ProjectDir)..\..\Client\Assets\References\UnityEngine.dll DEL $(ProjectDir)..\..\Client\Assets\References\UnityEngine.dll</PostBuildEvent>
   </PropertyGroup>
 </Project>

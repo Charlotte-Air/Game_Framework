@@ -20,5 +20,7 @@ json-excel\json-excel json Tables\ Data\
 @copy Data\EquipDefine.txt ..\Server\GameServer\bin\Debug\Data\
 @copy Data\QuestDefine.txt ..\Client\Assets\AssetBundle\Data\
 @copy Data\QuestDefine.txt ..\Server\GameServer\bin\Debug\Data\
+@copy Data\TeleporterDefine.txt ..\Client\Assets\AssetBundle\Data\
+@copy Data\TeleporterDefine.txt ..\Server\GameServer\bin\Debug\Data\
 
 pause

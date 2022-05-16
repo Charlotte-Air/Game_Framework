@@ -8,7 +8,6 @@ X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\protobuf-net.dll
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\Protocol.dll
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Buffers.dll
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Memory.dll
-X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\UnityEngine.dll
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\Protocol.pdb
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\Protocol.dll.config
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\protobuf-net.Core.xml
@@ -33,5 +32,12 @@ X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\o\f.csproj.CoreCompileInputs.cach
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\o\f.csproj.CopyComplete
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\o\Protocol.1.0.0.0.Fakes.dll
 X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\o\Protocol.1.0.0.0.Fakes.pdb
-X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\Common.dll
-X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\Common.pdb
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Collections.Immutable.dll
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Numerics.Vectors.dll
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Runtime.CompilerServices.Unsafe.dll
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.ServiceModel.Primitives.dll
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Collections.Immutable.xml
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Memory.xml
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Numerics.Vectors.xml
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.Runtime.CompilerServices.Unsafe.xml
+X:\Game_Framework\Lib\Common\obj\Debug\Fakes\p\b\System.ServiceModel.Primitives.pdb
