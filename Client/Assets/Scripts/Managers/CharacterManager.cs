@@ -11,20 +11,20 @@ using System.Collections.Generic;
 namespace Services
 {   
     /// <summary>
-    /// è§’è‰²ç®¡ç†å™¨
+    /// ½ÇÉ«¹ÜÀíÆ÷
     /// </summary>
     class CharacterManager : Singleton<CharacterManager>, IDisposable
     {
         /// <summary>
-        /// è§’è‰²é›†åˆ
+        /// ½ÇÉ«¼¯ºÏ
         /// </summary>
         public Dictionary<int, Character> Characters = new Dictionary<int, Character>();
         /// <summary>
-        /// è§’è‰²è¿›å…¥äº‹ä»¶
+        /// ½ÇÉ«½øÈëÊÂ¼ş
         /// </summary>
         public UnityAction<Character> OnCharacterEnter;
         /// <summary>
-        /// è§’è‰²ç¦»å¼€äº‹ä»¶
+        /// ½ÇÉ«Àë¿ªÊÂ¼ş
         /// </summary>
         public UnityAction<Character> OnCharacterLeave;
 
@@ -41,7 +41,7 @@ namespace Services
         }
 
         /// <summary>
-        /// æ¸…ç©ºè§’è‰²
+        /// Çå¿Õ½ÇÉ«
         /// </summary>
         public void Clear()
         {
@@ -57,7 +57,7 @@ namespace Services
         }
 
         /// <summary>
-        /// æ·»åŠ è§’è‰²
+        /// Ìí¼Ó½ÇÉ«
         /// </summary>
         /// <param name="cha">NCharacterInfo</param>
         public void AddCharacter(NCharacterInfo cha)
@@ -74,9 +74,9 @@ namespace Services
         }
 
         /// <summary>
-        /// åˆ é™¤è§’è‰²
+        /// É¾³ı½ÇÉ«
         /// </summary>
-        /// <param name="entityId">å®ä½“ID</param>
+        /// <param name="entityId">ÊµÌåID</param>
         public void RemoveCharacter(int entityId)
         {
             Debug.LogFormat("RemoveCharacter-> {0}", entityId);
@@ -91,9 +91,9 @@ namespace Services
         }
 
         /// <summary>
-        /// è·å–è§’è‰²
+        /// »ñÈ¡½ÇÉ«
         /// </summary>
-        /// <param name="id">å®ä½“ID</param>
+        /// <param name="id">ÊµÌåID</param>
         /// <returns></returns>
         public Character GetCharacter(int entityId)
         {
